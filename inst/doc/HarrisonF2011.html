@@ -12,7 +12,7 @@
 
 <meta name="author" content="Carl James Schwarz" />
 
-<meta name="date" content="2024-01-25" />
+<meta name="date" content="2025-02-05" />
 
 <title>Harrison River Female Chinook 2011 Data</title>
 
@@ -51,7 +51,7 @@ overflow: visible;
 </style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -62,7 +62,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -341,7 +341,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 <h1 class="title toc-ignore">Harrison River Female Chinook 2011
 Data</h1>
 <h4 class="author">Carl James Schwarz</h4>
-<h4 class="date">2024-01-25</h4>
+<h4 class="date">2025-02-05</h4>
 
 
 <div id="TOC">
@@ -462,8 +462,8 @@ pooling.</strong></p>
 <code>SPAS.print.model</code> produces a nice report</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">1</span>)</span>
 <span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="co">#&gt; Model Name: No restrictions </span></span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -536,7 +536,7 @@ pooling.</strong></p>
 <span id="cb4-74"><a href="#cb4-74" tabindex="-1"></a><span class="co">#&gt; pool2              0</span></span>
 <span id="cb4-75"><a href="#cb4-75" tabindex="-1"></a><span class="co">#&gt; pool3              0</span></span>
 <span id="cb4-76"><a href="#cb4-76" tabindex="-1"></a><span class="co">#&gt; pool4          12411</span></span>
-<span id="cb4-77"><a href="#cb4-77" tabindex="-1"></a><span class="co">#&gt; pool5          17661</span></span>
+<span id="cb4-77"><a href="#cb4-77" tabindex="-1"></a><span class="co">#&gt; pool5          17662</span></span>
 <span id="cb4-78"><a href="#cb4-78" tabindex="-1"></a><span class="co">#&gt; pool6           6253</span></span>
 <span id="cb4-79"><a href="#cb4-79" tabindex="-1"></a><span class="co">#&gt; est unmarked   14676</span></span>
 <span id="cb4-80"><a href="#cb4-80" tabindex="-1"></a><span class="co">#&gt; </span></span>
@@ -606,8 +606,8 @@ for the row pooling to ensure that the pooled matrix is sorted properly
 <p>The results of the model fit is</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">2</span>)</span>
 <span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="co">#&gt; Model Name: Pooling some rows </span></span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -695,8 +695,8 @@ estimator). The code and output follow:</p>
 <span id="cb8-15"><a href="#cb8-15" tabindex="-1"></a><span class="co">#&gt; Finding conditional estimate of N</span></span>
 <span id="cb8-16"><a href="#cb8-16" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">3</span>)</span>
 <span id="cb8-17"><a href="#cb8-17" tabindex="-1"></a><span class="co">#&gt; Model Name: A single row </span></span>
-<span id="cb8-18"><a href="#cb8-18" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb8-19"><a href="#cb8-19" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb8-18"><a href="#cb8-18" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb8-19"><a href="#cb8-19" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb8-20"><a href="#cb8-20" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb8-21"><a href="#cb8-21" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb8-22"><a href="#cb8-22" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -765,8 +765,8 @@ estimator). The code and output follow:</p>
 <span id="cb9-16"><a href="#cb9-16" tabindex="-1"></a><span class="co">#&gt; Finding conditional estimate of N</span></span>
 <span id="cb9-17"><a href="#cb9-17" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">4</span>)</span>
 <span id="cb9-18"><a href="#cb9-18" tabindex="-1"></a><span class="co">#&gt; Model Name: Pooled Peteren </span></span>
-<span id="cb9-19"><a href="#cb9-19" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb9-20"><a href="#cb9-20" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb9-19"><a href="#cb9-19" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb9-20"><a href="#cb9-20" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb9-21"><a href="#cb9-21" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb9-22"><a href="#cb9-22" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb9-23"><a href="#cb9-23" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -875,8 +875,8 @@ you set the additional argument <em>raw.physical.pool=FALSE</em>.</p>
 <span id="cb10-46"><a href="#cb10-46" tabindex="-1"></a><span class="co">#&gt; Finding conditional estimate of N</span></span>
 <span id="cb10-47"><a href="#cb10-47" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">5</span>)</span>
 <span id="cb10-48"><a href="#cb10-48" tabindex="-1"></a><span class="co">#&gt; Model Name: Logical Pooling some rows </span></span>
-<span id="cb10-49"><a href="#cb10-49" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb10-50"><a href="#cb10-50" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb10-49"><a href="#cb10-49" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb10-50"><a href="#cb10-50" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb10-51"><a href="#cb10-51" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb10-52"><a href="#cb10-52" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb10-53"><a href="#cb10-53" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -978,8 +978,8 @@ you set the additional argument <em>raw.physical.pool=FALSE</em>.</p>
 <span id="cb11-24"><a href="#cb11-24" tabindex="-1"></a></span>
 <span id="cb11-25"><a href="#cb11-25" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">6</span>)</span>
 <span id="cb11-26"><a href="#cb11-26" tabindex="-1"></a><span class="co">#&gt; Model Name: A single row - Logical Pool </span></span>
-<span id="cb11-27"><a href="#cb11-27" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb11-28"><a href="#cb11-28" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb11-27"><a href="#cb11-27" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb11-28"><a href="#cb11-28" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb11-29"><a href="#cb11-29" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb11-30"><a href="#cb11-30" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb11-31"><a href="#cb11-31" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -1067,8 +1067,8 @@ you set the additional argument <em>raw.physical.pool=FALSE</em>.</p>
 <span id="cb11-113"><a href="#cb11-113" tabindex="-1"></a></span>
 <span id="cb11-114"><a href="#cb11-114" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">7</span>)</span>
 <span id="cb11-115"><a href="#cb11-115" tabindex="-1"></a><span class="co">#&gt; Model Name: Pooled Peteren - Logical Pool </span></span>
-<span id="cb11-116"><a href="#cb11-116" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb11-117"><a href="#cb11-117" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb11-116"><a href="#cb11-116" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb11-117"><a href="#cb11-117" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb11-118"><a href="#cb11-118" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb11-119"><a href="#cb11-119" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb11-120"><a href="#cb11-120" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -1181,7 +1181,7 @@ every successive pair of rows</h2>
 <span id="cb12-33"><a href="#cb12-33" tabindex="-1"></a><span class="co">#&gt; outer mgc:  13.22858 </span></span>
 <span id="cb12-34"><a href="#cb12-34" tabindex="-1"></a><span class="co">#&gt; outer mgc:  9.882845 </span></span>
 <span id="cb12-35"><a href="#cb12-35" tabindex="-1"></a><span class="co">#&gt; outer mgc:  7.90472 </span></span>
-<span id="cb12-36"><a href="#cb12-36" tabindex="-1"></a><span class="co">#&gt; outer mgc:  5.242273 </span></span>
+<span id="cb12-36"><a href="#cb12-36" tabindex="-1"></a><span class="co">#&gt; outer mgc:  5.242274 </span></span>
 <span id="cb12-37"><a href="#cb12-37" tabindex="-1"></a><span class="co">#&gt; outer mgc:  4.351066 </span></span>
 <span id="cb12-38"><a href="#cb12-38" tabindex="-1"></a><span class="co">#&gt; outer mgc:  2.923214 </span></span>
 <span id="cb12-39"><a href="#cb12-39" tabindex="-1"></a><span class="co">#&gt; outer mgc:  2.714339 </span></span>
@@ -1189,9 +1189,9 @@ every successive pair of rows</h2>
 <span id="cb12-41"><a href="#cb12-41" tabindex="-1"></a><span class="co">#&gt; outer mgc:  1.637894 </span></span>
 <span id="cb12-42"><a href="#cb12-42" tabindex="-1"></a><span class="co">#&gt; outer mgc:  1.199361 </span></span>
 <span id="cb12-43"><a href="#cb12-43" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.6203809 </span></span>
-<span id="cb12-44"><a href="#cb12-44" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.3507094 </span></span>
+<span id="cb12-44"><a href="#cb12-44" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.3507095 </span></span>
 <span id="cb12-45"><a href="#cb12-45" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.1111873 </span></span>
-<span id="cb12-46"><a href="#cb12-46" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.03253222 </span></span>
+<span id="cb12-46"><a href="#cb12-46" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.03253223 </span></span>
 <span id="cb12-47"><a href="#cb12-47" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.01306298 </span></span>
 <span id="cb12-48"><a href="#cb12-48" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.006819012 </span></span>
 <span id="cb12-49"><a href="#cb12-49" tabindex="-1"></a><span class="co">#&gt; outer mgc:  0.00357779 </span></span>
@@ -1203,8 +1203,8 @@ every successive pair of rows</h2>
 <span id="cb12-55"><a href="#cb12-55" tabindex="-1"></a><span class="co">#&gt; Finding conditional estimate of N</span></span>
 <span id="cb12-56"><a href="#cb12-56" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod..<span class="dv">8</span>)</span>
 <span id="cb12-57"><a href="#cb12-57" tabindex="-1"></a><span class="co">#&gt; Model Name: Logical Pooling pairs rows </span></span>
-<span id="cb12-58"><a href="#cb12-58" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb12-59"><a href="#cb12-59" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb12-58"><a href="#cb12-58" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb12-59"><a href="#cb12-59" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb12-60"><a href="#cb12-60" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb12-61"><a href="#cb12-61" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb12-62"><a href="#cb12-62" tabindex="-1"></a><span class="co">#&gt;       V1   V2   V3  V4  V5  V6  V7</span></span>
@@ -1300,14 +1300,14 @@ estimates:</h1>
 <span id="cb13-22"><a href="#cb13-22" tabindex="-1"></a>})</span>
 <span id="cb13-23"><a href="#cb13-23" tabindex="-1"></a>report</span>
 <span id="cb13-24"><a href="#cb13-24" tabindex="-1"></a><span class="co">#&gt;      .id       date                      model.id s.a.pool t.p.pool logL.cond</span></span>
-<span id="cb13-25"><a href="#cb13-25" tabindex="-1"></a><span class="co">#&gt; 1 mod..1 2024-01-25               No restrictions        6        6  47243.45</span></span>
-<span id="cb13-26"><a href="#cb13-26" tabindex="-1"></a><span class="co">#&gt; 2 mod..2 2024-01-25             Pooling some rows        4        5  48053.08</span></span>
-<span id="cb13-27"><a href="#cb13-27" tabindex="-1"></a><span class="co">#&gt; 3 mod..3 2024-01-25                  A single row        1        5  51374.83</span></span>
-<span id="cb13-28"><a href="#cb13-28" tabindex="-1"></a><span class="co">#&gt; 4 mod..4 2024-01-25                Pooled Peteren        1        1  60410.94</span></span>
-<span id="cb13-29"><a href="#cb13-29" tabindex="-1"></a><span class="co">#&gt; 5 mod..5 2024-01-25     Logical Pooling some rows        6        5  47585.39</span></span>
-<span id="cb13-30"><a href="#cb13-30" tabindex="-1"></a><span class="co">#&gt; 6 mod..6 2024-01-25   A single row - Logical Pool        6        5  47580.39</span></span>
-<span id="cb13-31"><a href="#cb13-31" tabindex="-1"></a><span class="co">#&gt; 7 mod..7 2024-01-25 Pooled Peteren - Logical Pool        6        1  56584.83</span></span>
-<span id="cb13-32"><a href="#cb13-32" tabindex="-1"></a><span class="co">#&gt; 8 mod..8 2024-01-25    Logical Pooling pairs rows        6        5  47584.73</span></span>
+<span id="cb13-25"><a href="#cb13-25" tabindex="-1"></a><span class="co">#&gt; 1 mod..1 2025-02-06               No restrictions        6        6  47243.45</span></span>
+<span id="cb13-26"><a href="#cb13-26" tabindex="-1"></a><span class="co">#&gt; 2 mod..2 2025-02-06             Pooling some rows        4        5  48053.08</span></span>
+<span id="cb13-27"><a href="#cb13-27" tabindex="-1"></a><span class="co">#&gt; 3 mod..3 2025-02-06                  A single row        1        5  51374.83</span></span>
+<span id="cb13-28"><a href="#cb13-28" tabindex="-1"></a><span class="co">#&gt; 4 mod..4 2025-02-06                Pooled Peteren        1        1  60410.94</span></span>
+<span id="cb13-29"><a href="#cb13-29" tabindex="-1"></a><span class="co">#&gt; 5 mod..5 2025-02-06     Logical Pooling some rows        6        5  47585.39</span></span>
+<span id="cb13-30"><a href="#cb13-30" tabindex="-1"></a><span class="co">#&gt; 6 mod..6 2025-02-06   A single row - Logical Pool        6        5  47580.39</span></span>
+<span id="cb13-31"><a href="#cb13-31" tabindex="-1"></a><span class="co">#&gt; 7 mod..7 2025-02-06 Pooled Peteren - Logical Pool        6        1  56584.83</span></span>
+<span id="cb13-32"><a href="#cb13-32" tabindex="-1"></a><span class="co">#&gt; 8 mod..8 2025-02-06    Logical Pooling pairs rows        6        5  47584.73</span></span>
 <span id="cb13-33"><a href="#cb13-33" tabindex="-1"></a><span class="co">#&gt;   np       AICc gof.chisq gof.df gof.p kappa.after.lp  Nhat Nhat.se</span></span>
 <span id="cb13-34"><a href="#cb13-34" tabindex="-1"></a><span class="co">#&gt; 1 48  -94390.90       0.8      0    NA           4121 78159   14676</span></span>
 <span id="cb13-35"><a href="#cb13-35" tabindex="-1"></a><span class="co">#&gt; 2 28  -96050.16       2.8      1 0.096            231 73440   10424</span></span>

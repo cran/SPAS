@@ -12,7 +12,7 @@
 
 <meta name="author" content="Carl James Schwarz" />
 
-<meta name="date" content="2024-01-25" />
+<meta name="date" content="2025-02-05" />
 
 <title>Conne River 1992 Data</title>
 
@@ -51,7 +51,7 @@ overflow: visible;
 </style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -62,7 +62,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
 { counter-reset: source-line 0; }
@@ -340,7 +340,7 @@ code > span.er { color: #a61717; background-color: #e3d2d2; }
 
 <h1 class="title toc-ignore">Conne River 1992 Data</h1>
 <h4 class="author">Carl James Schwarz</h4>
-<h4 class="date">2024-01-25</h4>
+<h4 class="date">2025-02-05</h4>
 
 
 <div id="TOC">
@@ -443,8 +443,8 @@ pooling.</strong></p>
 <code>SPAS.print.model</code> produces a nice report</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod1)</span>
 <span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="co">#&gt; Model Name: No restrictions </span></span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb4-4"><a href="#cb4-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb4-5"><a href="#cb4-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb4-6"><a href="#cb4-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb4-7"><a href="#cb4-7" tabindex="-1"></a><span class="co">#&gt;        V1   V2   V3  V4  V5  V6   V7</span></span>
@@ -584,8 +584,8 @@ for the row pooling to ensure that the pooled matrix is sorted properly
 <p>The results of the model fit is</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod2)</span>
 <span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="co">#&gt; Model Name: Pooling some rows </span></span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb7-5"><a href="#cb7-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb7-6"><a href="#cb7-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb7-7"><a href="#cb7-7" tabindex="-1"></a><span class="co">#&gt;        V1   V2   V3  V4  V5  V6   V7</span></span>
@@ -660,8 +660,8 @@ estimator). The code and output follow:</p>
 <span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>                       <span class="at">col.pool.in=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">56</span>,<span class="dv">56</span>))</span></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod3)</span>
 <span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="co">#&gt; Model Name: A single row </span></span>
-<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="co">#&gt;        V1   V2   V3  V4  V5  V6   V7</span></span>
@@ -717,8 +717,8 @@ estimator). The code and output follow:</p>
 <span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a>                       <span class="at">col.pool.in=</span><span class="fu">rep</span>(<span class="dv">1</span>, <span class="fu">ncol</span>(conne.data)<span class="sc">-</span><span class="dv">1</span>))</span></code></pre></div>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">SPAS.print.model</span>(mod4)</span>
 <span id="cb11-2"><a href="#cb11-2" tabindex="-1"></a><span class="co">#&gt; Model Name: Pooled Peteren </span></span>
-<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2024-01-25 12:19 </span></span>
-<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2023-03-31 </span></span>
+<span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a><span class="co">#&gt;    Date of Fit: 2025-02-05 23:06 </span></span>
+<span id="cb11-4"><a href="#cb11-4" tabindex="-1"></a><span class="co">#&gt;    Version of OPEN SPAS used : SPAS-R 2025.2.1 </span></span>
 <span id="cb11-5"><a href="#cb11-5" tabindex="-1"></a><span class="co">#&gt;  </span></span>
 <span id="cb11-6"><a href="#cb11-6" tabindex="-1"></a><span class="co">#&gt; Raw data </span></span>
 <span id="cb11-7"><a href="#cb11-7" tabindex="-1"></a><span class="co">#&gt;        V1   V2   V3  V4  V5  V6   V7</span></span>
